@@ -502,7 +502,7 @@ a.video-text{
 .header-right img{
 	position: absolute;
 	right: 0;
-	top: 136px;
+	top: 60px;
 	max-width: 100%;
 }
 .title_bold{
@@ -1139,7 +1139,7 @@ ul.rating li.active{
 	background: url("../media/arrows/arrows.png") no-repeat -42px -83px;
 	content: "";
 	height: 65px;
-	left: 306px;
+	left: 350px;
 	position: absolute;
 	top: 32px;
 	width: 28px;
