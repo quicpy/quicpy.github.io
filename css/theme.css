@@ -659,10 +659,7 @@ ul.store-buttons li{
 	color: #888;
 }
 .circle{
-	background-color: #888;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
+
 }
 .circle span{
 	background-color: #fff;
