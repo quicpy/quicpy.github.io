@@ -1313,6 +1313,7 @@ ul.rating li.active{
 
 .member-full-width .member-item{
 	display: inline-block;
+	    padding: 0 40px;
 }
 
 
