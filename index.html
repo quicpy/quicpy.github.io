@@ -744,18 +744,18 @@
 
 								 <form novalidate id="contactForm" class="support-form form-inline" name="sentMessage" action="https://getsimpleform.com/messages?form_api_token=881da5ec3f5986b4c6a18907a9146a4f" method="post">
 									<div class="form-group half-wigth pull-left">
-										<label class="sr-only" for="user-name">Nombre/Compañía</label>
-										<input type="text" data-validation-required-message="Please enter your full name." required class="lineField robotoLight" id="user-name" placeholder="Full Name *">
+										<label class="sr-only" for="name">Nombre/Compañía</label>
+										<input type="text" name="name"  data-validation-required-message="Please enter your full name." required class="lineField robotoLight" id="user-name" placeholder="Indicanos tu nombre o el de tu empresa *">
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="form-group half-wigth pull-right">
-										<label class="sr-only" for="user-email">Email</label>
-										<input type="email" data-validation-required-message="Please enter your email address." required class="lineField robotoLight" id="user-email" placeholder="Email *">
+										<label class="sr-only" for="email">Email</label>
+										<input type="email"name="email" data-validation-required-message="Please enter your email address." required class="lineField robotoLight" id="user-email" placeholder="Email *">
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="form-group full-width pull-left">
 										<label class="sr-only" for="user-message">Mensaje</label>
-										<textarea data-validation-required-message="Please enter a message." required class="lineField robotoLight" id="user-message" placeholder="Message"></textarea>
+										<textarea data-validation-required-message="Please enter a message." name="message" required class="lineField robotoLight" id="user-message" placeholder="Dinos en que podemos ayudarte"></textarea>
 										<p class="help-block text-danger"></p>
 									</div>
 									<input type="submit" class="btn btn-info whiteTxtColor smallBtn robotoMedium customBgColor hvr-pop pull-left clear"/>
