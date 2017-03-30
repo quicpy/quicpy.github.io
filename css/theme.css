@@ -670,9 +670,6 @@ ul.store-buttons li{
 	line-height: 24px;
 	position: relative;
 	width: 100%;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
 }
 .circle span i{
 	bottom: 0;
@@ -714,7 +711,6 @@ ul.store-buttons li{
 }
 .circle.smallCircle{
 	height: 82px;
-	padding: 6px 1px;
 	width: 80px;
 }
 .circle.smallCircle span i{
