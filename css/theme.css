@@ -525,9 +525,9 @@ ul.store-buttons li{
 	font-family: "Roboto Condensed",sans-serif;
 	font-weight: 400;
 	padding: 3px 1px;
-	border-radius: 40px;
-	-moz-border-radius: 40px;
-	-webkit-border-radius: 40px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
 }
 .ellipseBtn span{
 	float: left;
@@ -536,9 +536,6 @@ ul.store-buttons li{
 	padding: 20px 0 0 85px;
 	position: relative;
 	width: 100%;
-	border-radius: 50px;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
 }
 .ellipseBtn span i{
 	font-size: 37px;
@@ -569,11 +566,11 @@ ul.store-buttons li{
 	text-align: center;
 }
 .ellipseBtn.whiteBtn{
-	background-color: #888;
+	background-color: #ececec;
 }
 .ellipseBtn.whiteBtn span{
-	background-color: #fff;
-	color: #000;
+
+	color: #888;
 }
 .ellipseBtn.customWhiteBtn{
 	background-color: #037fa2;
@@ -713,11 +710,13 @@ ul.store-buttons li{
 	height: 82px;
 	width: 80px;
 }
-.circle.smallCircle span i{
-	font-size: 23px;
+.circle.smallCircle span {
+	font-size: 30px;
 	height: 28px;
 	line-height: 28px;
 	width: 40px;
+	margin: auto;
+	    margin-top: 15px;
 }
 .circle.xSmallCircle{
 	height: 42px;
@@ -832,12 +831,7 @@ ul.store-buttons li{
 	bottom: 0;
 	margin: auto;
 }
-.options-item:hover .circle{
-	background-color: #05c3f9;
-}
-.options-item:hover .circle  span i{
-	color: #888;
-}
+
 .pull-left .options-item{
 	padding-right: 100px;
 }
